@@ -45,6 +45,8 @@ int main(int argc, char *argv[])
 
 DataSet *ReadData(const char *fileName)
 {
+
+	printf("%s:%d:daewhan\n", __FUNCTION__, __LINE__);
 	FILE *rfp;
 	int i;
 	DataSet ds;
